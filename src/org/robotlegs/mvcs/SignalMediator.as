@@ -7,6 +7,8 @@
 package org.robotlegs.mvcs
 {
 	import org.robotlegs.mvcs.Mediator;
+	import org.robotlegs.core.ISignalMap;
+	import org.robotlegs.base.SignalMap;
 
 	/**
 	 * Class.
@@ -19,11 +21,6 @@ package org.robotlegs.mvcs
 	 */
 	public class SignalMediator extends Mediator
 	{
-	
-		//--------------------------------------
-		// CLASS CONSTANTS
-		//--------------------------------------
-	
 		//--------------------------------------
 		//  CONSTRUCTOR
 		//--------------------------------------
@@ -40,21 +37,41 @@ package org.robotlegs.mvcs
 		//  PRIVATE VARIABLES
 		//--------------------------------------
 	
+		/**
+		 * @private
+		 */
+		protected var _signalMap : ISignalMap;
+		
 		//--------------------------------------
 		//  GETTER/SETTERS
 		//--------------------------------------
-	
+		
+		/**
+		 * Local SignalMap
+		 * 
+		 * @return The ISignalMap for this Mediator
+		 */
+		protected function get signalMap( ) : ISignalMap
+		{
+			return _signalMap || ( _signalMap = new SignalMap( ) );
+		}
+		
 		//--------------------------------------
 		//  PUBLIC METHODS
 		//--------------------------------------
 	
-		//--------------------------------------
-		//  EVENT HANDLERS
-		//--------------------------------------
-	
-		//--------------------------------------
-		//  PRIVATE & PROTECTED INSTANCE METHODS
-		//--------------------------------------
+		/**
+		 * @inheritDoc
+		 */
+		override public function preRemove( ) : void
+		{
+			if( _signalMap )
+			{
+				_signalMap.unmapSignals( );
+			}
+			
+			super.preRemove( );
+		}
 	
 	}
 

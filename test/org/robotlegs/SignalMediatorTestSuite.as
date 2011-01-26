@@ -9,6 +9,8 @@
 
 package org.robotlegs
 {
+	import org.robotlegs.base.SignalMapFixture;
+	import org.robotlegs.mvcs.SignalMediatorFixture;
 
 	/**
 	 * Class.
@@ -26,6 +28,10 @@ package org.robotlegs
 		//--------------------------------------
 		//  TEST FIXTURES
 		//--------------------------------------
+		
+		public var signalMapFixture : SignalMapFixture;
+		
+		public var signalMediatorFixture : SignalMediatorFixture;
 		
 		//--------------------------------------
 		//  CONSTRUCTOR

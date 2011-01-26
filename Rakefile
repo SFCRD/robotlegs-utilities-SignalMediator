@@ -47,7 +47,7 @@ task :swc do
    -source-path src \
    -library-path libs/bin \
    -include-sources src \
-   -output build/bin/operations-#{SignalMediator::VERSION}.swc`
+   -output build/bin/signal-mediator-#{SignalMediator::VERSION}.swc`
 end
 
 desc "Compiles and runs the test suite"

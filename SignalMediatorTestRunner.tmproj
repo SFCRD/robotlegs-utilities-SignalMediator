@@ -3,18 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>src/SignalMediatorTestRunner.as</string>
+	<string>README.md</string>
 	<key>documents</key>
 	<array>
 		<dict>
-			<key>name</key>
-			<string>build</string>
-			<key>regexFolderFilter</key>
-			<string>!.*/(\.[^/]*|CVS|_darcs|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
-			<key>sourceDirectory</key>
-			<string>build</string>
-		</dict>
-		<dict>
+			<key>expanded</key>
+			<true/>
 			<key>name</key>
 			<string>deploy</string>
 			<key>regexFolderFilter</key>
@@ -23,6 +17,8 @@
 			<string>deploy</string>
 		</dict>
 		<dict>
+			<key>expanded</key>
+			<true/>
 			<key>name</key>
 			<string>libs</string>
 			<key>regexFolderFilter</key>
@@ -40,19 +36,113 @@
 			<key>sourceDirectory</key>
 			<string>src</string>
 		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Rakefile</string>
+			<key>lastUsed</key>
+			<date>2011-01-27T00:00:32Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>README.md</string>
+			<key>lastUsed</key>
+			<date>2011-01-27T00:00:32Z</date>
+			<key>selected</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>expanded</key>
+			<true/>
+			<key>name</key>
+			<string>test</string>
+			<key>regexFolderFilter</key>
+			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
+			<key>sourceDirectory</key>
+			<string>test</string>
+		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>200</integer>
+	<integer>329</integer>
 	<key>metaData</key>
 	<dict>
-		<key>src/SignalMediatorTestRunner.as</key>
+		<key>README.md</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>87</integer>
+				<key>line</key>
+				<integer>5</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>Rakefile</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>3</integer>
+				<key>line</key>
+				<integer>18</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>src/org/robotlegs/mvcs/SignalMediator.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>20</integer>
+				<key>line</key>
+				<integer>49</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>9</integer>
+		</dict>
+		<key>test/org/robotlegs/SignalMediatorTestSuite.as</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>2</integer>
 				<key>line</key>
-				<integer>12</integer>
+				<integer>34</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>test/org/robotlegs/base/SignalMapFixture.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>29</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>test/org/robotlegs/mvcs/SignalMediatorFixture.as</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -62,7 +152,12 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>src/SignalMediatorTestRunner.as</string>
+		<string>test/org/robotlegs/base/SignalMapFixture.as</string>
+		<string>test/org/robotlegs/mvcs/SignalMediatorFixture.as</string>
+		<string>Rakefile</string>
+		<string>README.md</string>
+		<string>src/org/robotlegs/mvcs/SignalMediator.as</string>
+		<string>test/org/robotlegs/SignalMediatorTestSuite.as</string>
 	</array>
 	<key>shellVariables</key>
 	<array>
@@ -70,7 +165,7 @@
 			<key>enabled</key>
 			<true/>
 			<key>value</key>
-			<string>src/SignalMediatorTestRunner.as</string>
+			<string>test/SignalMediatorTestRunner.mxml</string>
 			<key>variable</key>
 			<string>TM_FLEX_FILE_SPECS</string>
 		</dict>
@@ -116,18 +211,155 @@
 		</dict>
 	</array>
 	<key>showFileHierarchyDrawer</key>
-	<false/>
+	<true/>
 	<key>treeState</key>
 	<dict>
-		<key>src</key>
+		<key>deploy</key>
 		<dict>
 			<key>isExpanded</key>
 			<true/>
 			<key>subItems</key>
 			<dict/>
 		</dict>
+		<key>libs</key>
+		<dict>
+			<key>isExpanded</key>
+			<true/>
+			<key>subItems</key>
+			<dict>
+				<key>bin</key>
+				<dict>
+					<key>isExpanded</key>
+					<true/>
+					<key>subItems</key>
+					<dict/>
+				</dict>
+				<key>src</key>
+				<dict>
+					<key>isExpanded</key>
+					<true/>
+					<key>subItems</key>
+					<dict>
+						<key>org</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
+								<key>osflash</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict>
+										<key>signals</key>
+										<dict>
+											<key>isExpanded</key>
+											<true/>
+											<key>subItems</key>
+											<dict>
+												<key>utils</key>
+												<dict>
+													<key>isExpanded</key>
+													<true/>
+													<key>subItems</key>
+													<dict/>
+												</dict>
+											</dict>
+										</dict>
+									</dict>
+								</dict>
+							</dict>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<key>src</key>
+		<dict>
+			<key>isExpanded</key>
+			<true/>
+			<key>subItems</key>
+			<dict>
+				<key>org</key>
+				<dict>
+					<key>isExpanded</key>
+					<true/>
+					<key>subItems</key>
+					<dict>
+						<key>robotlegs</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
+								<key>base</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+								<key>core</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+								<key>mvcs</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+							</dict>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<key>test</key>
+		<dict>
+			<key>isExpanded</key>
+			<true/>
+			<key>subItems</key>
+			<dict>
+				<key>org</key>
+				<dict>
+					<key>isExpanded</key>
+					<true/>
+					<key>subItems</key>
+					<dict>
+						<key>robotlegs</key>
+						<dict>
+							<key>isExpanded</key>
+							<true/>
+							<key>subItems</key>
+							<dict>
+								<key>base</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+								<key>mvcs</key>
+								<dict>
+									<key>isExpanded</key>
+									<true/>
+									<key>subItems</key>
+									<dict/>
+								</dict>
+							</dict>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
 	</dict>
 	<key>windowFrame</key>
-	<string>{{44, 91}, {1070, 959}}</string>
+	<string>{{824, 137}, {1070, 959}}</string>
 </dict>
 </plist>
